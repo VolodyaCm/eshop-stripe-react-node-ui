@@ -1,3 +1,5 @@
+import './featured-product.styles.scss';
+
 const FeaturedProductComponent = ({ product }) => {
   const { title, imageUrl, price } = product;
   return (
